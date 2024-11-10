@@ -4,11 +4,11 @@ print('Список', my_list, '\nПоложительные числа из с�
 start = 0
 while start < len(my_list):
 
-    num = my_list[start]  # задаём число из списка
-    start = start + 1  # запускаем счетчик
+    num = my_list[start]  
+    start = start + 1  
 
     if num == 0:
-        continue  # пропускаем 0
+        continue  
 
     elif num < 0:
         print('Встретилось отрицательное число:', num)
